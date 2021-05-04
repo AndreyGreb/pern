@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Context } from '..'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavLink from 'react-bootstrap/esm/NavLink';
+import {NavLink} from 'react-router-dom'
 import { Button, Container } from 'react-bootstrap'
 import { SHOP_ROUTE } from '../utils/consts';
 import { observer } from 'mobx-react-lite'
