@@ -73,7 +73,7 @@ BasketDevice.belongsTo(Device)
 Basket.hasMany(BasketDevice)
 BasketDevice.belongsTo(Basket)
 
-Device.hasMany(DeviceInfo)
+Device.hasMany(DeviceInfo, {as: 'info'})
 DeviceInfo.belongsTo(Device)
 
 Type.belongsToMany(Brand, { through: TypeBrand })
